@@ -18,8 +18,6 @@ public class FixedArrayQueue<E> implements SimpleQueue<E> {
   private List<E> dataList;
 
   // Done why do we need an explicit constructor?
-  // We need an explicit constructor to initialize the queue with a fixed capacity.
-  // With a fixed capacity, we will also determine what the rear index is.
 
   @SuppressWarnings("unchecked")
   public FixedArrayQueue(final int capacity) {
